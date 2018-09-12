@@ -86,3 +86,8 @@ variable ip_protocol {
   description = "The IP protocol for the backend and frontend forwarding rule. TCP or UDP."
   default     = "TCP"
 }
+
+variable service_label {
+  description = "An optional service label to assign to the forwarding rule, for use in service discovery."
+  default     = "default"
+}
